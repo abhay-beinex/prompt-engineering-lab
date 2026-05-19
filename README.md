@@ -41,6 +41,7 @@ The experiment compares:
 ---
 
 ## Project Structure
+```plaintext
 
 prompt-engineering-lab/
 │
