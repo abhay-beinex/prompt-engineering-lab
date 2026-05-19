@@ -1,0 +1,4 @@
+Convert the following meeting notes into action items.
+
+Meeting Notes:
+{{meeting_notes}}

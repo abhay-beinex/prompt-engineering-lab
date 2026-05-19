@@ -1,0 +1,41 @@
+Project Sync Meeting – Internal Product Team
+
+Date: May 18, 2026
+Duration: 35 minutes
+
+Attendees:
+- Sarah (Project Manager)
+- David (Backend Engineer)
+- Nina (Frontend Engineer)
+- Kevin (QA Lead)
+- Emma (Client Success)
+
+Meeting Notes:
+
+Sarah: We need to finalize the dashboard redesign before the client review next Wednesday. Nina, can you finish the responsive layout updates by Friday evening?
+
+Nina: Yes, I can complete the mobile and tablet responsiveness by Friday. I still need the updated API schema from David for the analytics widgets.
+
+David: I’ll send the updated schema document by tomorrow noon. The backend APIs are mostly ready, but authentication for the reporting module still has a bug affecting token refresh.
+
+Kevin: QA found two critical issues yesterday. First, session expiration logs out users unexpectedly after inactivity. Second, exported CSV reports sometimes miss transaction rows.
+
+Sarah: The CSV export issue is high priority. David and Kevin, please coordinate and resolve that before Monday afternoon.
+
+Emma: The client also requested a dark mode preview during next week’s demo. Is that feasible?
+
+Nina: A basic dark mode can be prepared, but not the fully polished version. I can prepare a preview version before Tuesday EOD.
+
+Sarah: That works. Let’s keep it labeled as beta during the presentation.
+
+Kevin: We also need updated regression test results before release sign-off.
+
+Sarah: Agreed. Kevin, please complete regression testing by Tuesday morning.
+
+David: One more thing — deployment scripts still need review. Last week’s staging deployment failed because of missing environment variables.
+
+Sarah: Okay. David, review and validate deployment scripts before Friday evening as well.
+
+Emma: I’ll inform the client that dark mode is still under beta preview and that final rollout will happen later.
+
+Sarah: Great. Let’s reconvene Monday morning for a quick progress review.

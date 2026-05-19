@@ -1,0 +1,27 @@
+Convert meeting notes into structured action items.
+
+Example:
+
+Meeting Notes:
+John: Please finalize the login page by Thursday.
+Emily: I will complete API testing tomorrow.
+
+Output:
+[
+  {
+    "task": "Finalize login page",
+    "owner": "John",
+    "deadline": "Thursday",
+    "priority": "Medium"
+  },
+  {
+    "task": "Complete API testing",
+    "owner": "Emily",
+    "deadline": "Tomorrow",
+    "priority": "Medium"
+  }
+]
+
+Now process the following meeting notes:
+
+{{meeting_notes}}

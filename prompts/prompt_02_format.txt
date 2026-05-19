@@ -1,0 +1,15 @@
+Convert the following meeting notes into action items.
+
+Return the response as a JSON array using this structure:
+
+[
+  {
+    "task": "",
+    "owner": "",
+    "deadline": "",
+    "priority": ""
+  }
+]
+
+Meeting Notes:
+{{meeting_notes}}

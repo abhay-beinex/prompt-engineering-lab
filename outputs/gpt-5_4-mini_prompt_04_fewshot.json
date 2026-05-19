@@ -1,0 +1,9 @@
+{
+    "model": "gpt-5.4-mini",
+    "prompt_file": "prompt_04_fewshot.txt",
+    "latency_seconds": 3.59,
+    "prompt_tokens": 615,
+    "completion_tokens": 348,
+    "total_tokens": 963,
+    "response": "[\n  {\n    \"task\": \"Finalize dashboard redesign\",\n    \"owner\": \"Sarah\",\n    \"deadline\": \"Before client review next Wednesday\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Complete responsive layout updates\",\n    \"owner\": \"Nina\",\n    \"deadline\": \"Friday evening\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Complete mobile and tablet responsiveness\",\n    \"owner\": \"Nina\",\n    \"deadline\": \"Friday\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Send updated API schema document\",\n    \"owner\": \"David\",\n    \"deadline\": \"Tomorrow noon\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Fix authentication bug affecting token refresh in reporting module\",\n    \"owner\": \"David\",\n    \"deadline\": \"ASAP\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Resolve CSV export issue\",\n    \"owner\": \"David and Kevin\",\n    \"deadline\": \"Before Monday afternoon\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Prepare dark mode preview version\",\n    \"owner\": \"Nina\",\n    \"deadline\": \"Before Tuesday EOD\",\n    \"priority\": \"Low\"\n  },\n  {\n    \"task\": \"Complete regression testing\",\n    \"owner\": \"Kevin\",\n    \"deadline\": \"Tuesday morning\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Review and validate deployment scripts\",\n    \"owner\": \"David\",\n    \"deadline\": \"Before Friday evening\",\n    \"priority\": \"Medium\"\n  }\n]"
+}

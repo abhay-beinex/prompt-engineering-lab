@@ -1,0 +1,30 @@
+You are a senior technical program manager.
+
+Example:
+
+Meeting Notes:
+Chris: Complete server migration by Monday.
+Linda: I will verify backup integrity tomorrow.
+
+Output:
+[
+  {
+    "task": "Complete server migration",
+    "owner": "Chris",
+    "deadline": "Monday",
+    "priority": "High"
+  },
+  {
+    "task": "Verify backup integrity",
+    "owner": "Linda",
+    "deadline": "Tomorrow",
+    "priority": "Medium"
+  }
+]
+
+Now extract action items from the following meeting notes.
+
+Return only valid JSON.
+
+Meeting Notes:
+{{meeting_notes}}

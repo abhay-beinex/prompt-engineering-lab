@@ -1,0 +1,52 @@
+Convert meeting notes into structured action items.
+
+Example 1:
+
+Meeting Notes:
+Alex: Fix payment gateway timeout by Friday.
+Maria: I will update user onboarding screens tomorrow.
+
+Output:
+[
+  {
+    "task": "Fix payment gateway timeout",
+    "owner": "Alex",
+    "deadline": "Friday",
+    "priority": "High"
+  },
+  {
+    "task": "Update user onboarding screens",
+    "owner": "Maria",
+    "deadline": "Tomorrow",
+    "priority": "Medium"
+  }
+]
+
+Example 2:
+
+Meeting Notes:
+Ryan: QA testing must finish before release.
+Sophia: I’ll prepare deployment notes tonight.
+
+Output:
+[
+  {
+    "task": "Complete QA testing",
+    "owner": "Ryan",
+    "deadline": "Before release",
+    "priority": "High"
+  },
+  {
+    "task": "Prepare deployment notes",
+    "owner": "Sophia",
+    "deadline": "Tonight",
+    "priority": "Low"
+  }
+]
+
+Negative Example:
+Do NOT include meeting discussions that are not actionable tasks.
+
+Now process the following meeting notes:
+
+{{meeting_notes}}

@@ -1,0 +1,9 @@
+{
+    "model": "gpt-5.5",
+    "prompt_file": "prompt_10_optimized.txt",
+    "latency_seconds": 15.32,
+    "prompt_tokens": 533,
+    "completion_tokens": 904,
+    "total_tokens": 1437,
+    "response": "[\n  {\n    \"task\": \"Complete mobile and tablet responsive layout updates for the dashboard redesign\",\n    \"owner\": \"Nina\",\n    \"deadline\": \"Friday evening\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Send updated API schema document for analytics widgets\",\n    \"owner\": \"David\",\n    \"deadline\": \"Tomorrow noon\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Investigate and resolve token refresh bug in reporting module authentication\",\n    \"owner\": \"David\",\n    \"deadline\": null,\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Resolve CSV export issue causing missing transaction rows\",\n    \"owner\": \"David and Kevin\",\n    \"deadline\": \"Monday afternoon\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Investigate and resolve unexpected user logout after session inactivity\",\n    \"owner\": \"David\",\n    \"deadline\": null,\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Prepare beta dark mode preview for next week\u2019s demo\",\n    \"owner\": \"Nina\",\n    \"deadline\": \"Tuesday EOD\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Complete updated regression testing for release sign-off\",\n    \"owner\": \"Kevin\",\n    \"deadline\": \"Tuesday morning\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Review and validate deployment scripts, including required environment variables\",\n    \"owner\": \"David\",\n    \"deadline\": \"Friday evening\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Inform the client that dark mode will be shown as a beta preview with final rollout later\",\n    \"owner\": \"Emma\",\n    \"deadline\": null,\n    \"priority\": \"Medium\"\n  }\n]"
+}

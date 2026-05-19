@@ -1,0 +1,9 @@
+{
+    "model": "gpt-5.4-mini",
+    "prompt_file": "prompt_10_optimized.txt",
+    "latency_seconds": 2.51,
+    "prompt_tokens": 533,
+    "completion_tokens": 280,
+    "total_tokens": 813,
+    "response": "[\n  {\n    \"task\": \"Complete responsive layout updates for dashboard redesign\",\n    \"owner\": \"Nina\",\n    \"deadline\": \"Friday evening\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Send updated API schema for analytics widgets\",\n    \"owner\": \"David\",\n    \"deadline\": \"Tomorrow noon\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Resolve reporting module authentication token refresh bug\",\n    \"owner\": \"David\",\n    \"deadline\": null,\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Fix CSV export missing transaction rows issue\",\n    \"owner\": \"David and Kevin\",\n    \"deadline\": \"Monday afternoon\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Prepare beta dark mode preview for demo\",\n    \"owner\": \"Nina\",\n    \"deadline\": \"Tuesday EOD\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Complete regression testing and provide updated results\",\n    \"owner\": \"Kevin\",\n    \"deadline\": \"Tuesday morning\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Review and validate deployment scripts\",\n    \"owner\": \"David\",\n    \"deadline\": \"Friday evening\",\n    \"priority\": \"Medium\"\n  }\n]"
+}

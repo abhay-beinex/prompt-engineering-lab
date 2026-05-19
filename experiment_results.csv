@@ -1,0 +1,178 @@
+model,prompt_file,latency_seconds,prompt_tokens,completion_tokens,total_tokens,response_preview
+gpt-5.5,prompt_01_zeroshot.txt,17.55,398,748,1146,"### Action Items
+
+| # | Action Item | Owner(s) | Due Date / Time | Priority | Notes |
+|---|---|---|---|---|---|
+| 1 | Finish responsive layout updates"
+gpt-5.5,prompt_02_format.txt,16.52,435,984,1419,"[
+  {
+    ""task"": ""Finish mobile and tablet responsive layout updates for the dashboard redesign"",
+    ""owner"": ""Nina"",
+    ""deadline"": ""Friday evenin"
+gpt-5.5,prompt_03_oneshot.txt,15.61,497,964,1461,"[
+  {
+    ""task"": ""Finish responsive layout updates for mobile and tablet dashboard redesign"",
+    ""owner"": ""Nina"",
+    ""deadline"": ""Friday evening"",
+"
+gpt-5.5,prompt_04_fewshot.txt,12.77,615,810,1425,"[
+  {
+    ""task"": ""Finish responsive layout updates for mobile and tablet"",
+    ""owner"": ""Nina"",
+    ""deadline"": ""Friday evening"",
+    ""priority"": ""Hi"
+gpt-5.5,prompt_05_cot.txt,30.82,438,2242,2680,"{
+  ""meeting_date"": ""2026-05-18"",
+  ""assumptions"": [
+    ""Relative deadlines are interpreted from the meeting date of May 18, 2026."",
+    ""Because the"
+gpt-5.5,prompt_06_systempersona.txt,15.05,428,881,1309,"{
+  ""tasks"": [
+    {
+      ""task"": ""Complete mobile and tablet responsive layout updates for the dashboard redesign."",
+      ""owner"": ""Nina"",
+      ""d"
+gpt-5.5,prompt_07_role.txt,21.6,427,1515,1942,"{
+  ""meeting"": {
+    ""title"": ""Project Sync Meeting – Internal Product Team"",
+    ""date"": ""2026-05-18"",
+    ""duration_minutes"": 35
+  },
+  ""action_item"
+gpt-5.5,prompt_08_rolefewshot.txt,16.16,506,876,1382,"[
+  {
+    ""task"": ""Complete mobile and tablet responsive layout updates for the dashboard redesign"",
+    ""owner"": ""Nina"",
+    ""deadline"": ""Friday even"
+gpt-5.5,prompt_09_systemcot.txt,27.67,439,1574,2013,"{
+  ""tasks"": [
+    {
+      ""id"": 1,
+      ""task"": ""Finish mobile and tablet responsive layout updates for dashboard redesign"",
+      ""owners"": [""Nina"""
+gpt-5.5,prompt_10_optimized.txt,15.32,533,904,1437,"[
+  {
+    ""task"": ""Complete mobile and tablet responsive layout updates for the dashboard redesign"",
+    ""owner"": ""Nina"",
+    ""deadline"": ""Friday even"
+gpt-5.4,prompt_01_zeroshot.txt,4.92,398,332,730,"Here are the action items extracted from the meeting notes:
+
+### Action Items
+
+- **Nina**
+  - Complete **mobile and tablet responsive layout updates**"
+gpt-5.4,prompt_02_format.txt,6.11,435,413,848,"[
+  {
+    ""task"": ""Complete mobile and tablet responsive layout updates for the dashboard redesign."",
+    ""owner"": ""Nina"",
+    ""deadline"": ""2026-05-22"
+gpt-5.4,prompt_03_oneshot.txt,5.09,497,394,891,"```json
+[
+  {
+    ""task"": ""Finish responsive layout updates for the dashboard redesign, including mobile and tablet responsiveness"",
+    ""owner"": ""Nin"
+gpt-5.4,prompt_04_fewshot.txt,18.71,615,289,904,"[
+  {
+    ""task"": ""Complete mobile and tablet responsiveness for the dashboard redesign"",
+    ""owner"": ""Nina"",
+    ""deadline"": ""Friday"",
+    ""priority"
+gpt-5.4,prompt_05_cot.txt,8.12,438,666,1104,"{
+  ""meeting_title"": ""Project Sync Meeting – Internal Product Team"",
+  ""meeting_date"": ""2026-05-18"",
+  ""action_items"": [
+    {
+      ""task"": ""Finalize"
+gpt-5.4,prompt_06_systempersona.txt,4.62,428,370,798,"[
+  {
+    ""task"": ""Complete mobile and tablet responsive layout updates for the dashboard redesign."",
+    ""owner"": ""Nina"",
+    ""due_date"": ""2026-05-22"
+gpt-5.4,prompt_07_role.txt,12.32,427,954,1381,"{
+  ""meeting_title"": ""Project Sync Meeting – Internal Product Team"",
+  ""meeting_date"": ""2026-05-18"",
+  ""action_items"": [
+    {
+      ""id"": ""AI-001"",
+ "
+gpt-5.4,prompt_08_rolefewshot.txt,5.25,506,366,872,"[
+  {
+    ""task"": ""Finalize dashboard redesign"",
+    ""owner"": ""Sarah"",
+    ""deadline"": ""Next Wednesday"",
+    ""priority"": ""High""
+  },
+  {
+    ""task"": """
+gpt-5.4,prompt_09_systemcot.txt,5.1,439,378,817,"[
+  {
+    ""task"": ""Complete responsive layout updates for the dashboard redesign (mobile and tablet responsiveness)"",
+    ""owner"": ""Nina"",
+    ""deadli"
+gpt-5.4,prompt_10_optimized.txt,4.2,533,311,844,"[
+  {
+    ""task"": ""Complete mobile and tablet responsive layout updates for the dashboard redesign"",
+    ""owner"": ""Nina"",
+    ""deadline"": ""Friday even"
+gpt-5.4-mini,prompt_01_zeroshot.txt,5.79,398,243,641,"Here are the action items from the meeting notes:
+
+| Owner | Action Item | Due Date |
+|---|---|---|
+| Nina | Finish responsive layout updates for the "
+gpt-5.4-mini,prompt_02_format.txt,2.73,435,413,848,"[
+  {
+    ""task"": ""Finish responsive layout updates for the dashboard redesign, including mobile and tablet responsiveness"",
+    ""owner"": ""Nina"",
+    "
+gpt-5.4-mini,prompt_03_oneshot.txt,4.02,497,401,898,"[
+  {
+    ""task"": ""Finalize dashboard redesign"",
+    ""owner"": ""Sarah"",
+    ""deadline"": ""Before client review next Wednesday"",
+    ""priority"": ""Medium"""
+gpt-5.4-mini,prompt_04_fewshot.txt,3.59,615,348,963,"[
+  {
+    ""task"": ""Finalize dashboard redesign"",
+    ""owner"": ""Sarah"",
+    ""deadline"": ""Before client review next Wednesday"",
+    ""priority"": ""High""
+ "
+gpt-5.4-mini,prompt_05_cot.txt,4.6,438,679,1117,"```json
+{
+  ""meeting"": {
+    ""title"": ""Project Sync Meeting – Internal Product Team"",
+    ""date"": ""2026-05-18"",
+    ""duration_minutes"": 35
+  },
+  ""tas"
+gpt-5.4-mini,prompt_06_systempersona.txt,3.28,428,343,771,"{
+  ""tasks"": [
+    {
+      ""owner"": ""Nina"",
+      ""task"": ""Complete mobile and tablet responsive layout updates for the dashboard redesign."",
+      ""d"
+gpt-5.4-mini,prompt_07_role.txt,5.3,427,817,1244,"{
+  ""meeting_title"": ""Project Sync Meeting – Internal Product Team"",
+  ""meeting_date"": ""2026-05-18"",
+  ""action_items"": [
+    {
+      ""id"": 1,
+      ""o"
+gpt-5.4-mini,prompt_08_rolefewshot.txt,3.26,506,492,998,"[
+  {
+    ""task"": ""Finalize dashboard redesign"",
+    ""owner"": ""Sarah"",
+    ""deadline"": ""Before client review next Wednesday"",
+    ""priority"": ""High""
+ "
+gpt-5.4-mini,prompt_09_systemcot.txt,3.76,439,449,888,"{
+  ""tasks"": [
+    {
+      ""task"": ""Finish responsive layout updates for the dashboard redesign (mobile and tablet responsiveness)."",
+      ""owner"": """
+gpt-5.4-mini,prompt_10_optimized.txt,2.51,533,280,813,"[
+  {
+    ""task"": ""Complete responsive layout updates for dashboard redesign"",
+    ""owner"": ""Nina"",
+    ""deadline"": ""Friday evening"",
+    ""priority"": "

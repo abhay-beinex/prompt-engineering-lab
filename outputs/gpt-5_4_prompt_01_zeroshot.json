@@ -1,0 +1,9 @@
+{
+    "model": "gpt-5.4",
+    "prompt_file": "prompt_01_zeroshot.txt",
+    "latency_seconds": 4.92,
+    "prompt_tokens": 398,
+    "completion_tokens": 332,
+    "total_tokens": 730,
+    "response": "Here are the action items extracted from the meeting notes:\n\n### Action Items\n\n- **Nina**\n  - Complete **mobile and tablet responsive layout updates** for the dashboard redesign by **Friday evening**.\n  - Prepare a **basic dark mode preview** for the client demo by **Tuesday EOD**.\n  - Ensure dark mode is labeled as **beta** during the presentation.\n\n- **David**\n  - Send the **updated API schema document** to Nina by **tomorrow at noon**.\n  - Fix the **authentication/token refresh bug** affecting the reporting module.\n  - Work with Kevin to resolve the **CSV export issue** before **Monday afternoon**.\n  - Review and validate **deployment scripts** before **Friday evening**.\n\n- **Kevin**\n  - Coordinate with David to resolve the **CSV export issue** before **Monday afternoon**.\n  - Complete **regression testing** by **Tuesday morning**.\n  - Continue investigating the **unexpected session expiration/logout issue**.\n\n- **Emma**\n  - Inform the client that **dark mode will be shown as a beta preview** during next week\u2019s demo.\n  - Communicate that the **final dark mode rollout will happen later**.\n\n- **Sarah**\n  - Lead a **quick progress review meeting** on **Monday morning**.\n  - Track completion of the dashboard redesign ahead of the **client review next Wednesday**.\n\n### High-Priority Items\n- Finalize dashboard redesign before **next Wednesday\u2019s client review**.\n- Resolve **CSV export missing transaction rows** before **Monday afternoon**.\n- Complete **regression testing** before release sign-off."
+}

@@ -1,0 +1,9 @@
+{
+    "model": "gpt-5.4",
+    "prompt_file": "prompt_08_rolefewshot.txt",
+    "latency_seconds": 5.25,
+    "prompt_tokens": 506,
+    "completion_tokens": 366,
+    "total_tokens": 872,
+    "response": "[\n  {\n    \"task\": \"Finalize dashboard redesign\",\n    \"owner\": \"Sarah\",\n    \"deadline\": \"Next Wednesday\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Complete mobile and tablet responsive layout updates\",\n    \"owner\": \"Nina\",\n    \"deadline\": \"Friday evening\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Send updated API schema document for analytics widgets\",\n    \"owner\": \"David\",\n    \"deadline\": \"Tomorrow noon\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Coordinate and resolve CSV export issue causing missing transaction rows\",\n    \"owner\": \"David and Kevin\",\n    \"deadline\": \"Monday afternoon\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Prepare beta dark mode preview for demo\",\n    \"owner\": \"Nina\",\n    \"deadline\": \"Tuesday EOD\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Complete regression testing\",\n    \"owner\": \"Kevin\",\n    \"deadline\": \"Tuesday morning\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Review and validate deployment scripts\",\n    \"owner\": \"David\",\n    \"deadline\": \"Friday evening\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Inform the client that dark mode is in beta preview and final rollout will happen later\",\n    \"owner\": \"Emma\",\n    \"deadline\": \"Next week's demo\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Reconvene for a quick progress review\",\n    \"owner\": \"Sarah\",\n    \"deadline\": \"Monday morning\",\n    \"priority\": \"Medium\"\n  }\n]"
+}

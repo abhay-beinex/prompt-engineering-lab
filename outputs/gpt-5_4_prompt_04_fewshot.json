@@ -1,0 +1,9 @@
+{
+    "model": "gpt-5.4",
+    "prompt_file": "prompt_04_fewshot.txt",
+    "latency_seconds": 18.71,
+    "prompt_tokens": 615,
+    "completion_tokens": 289,
+    "total_tokens": 904,
+    "response": "[\n  {\n    \"task\": \"Complete mobile and tablet responsiveness for the dashboard redesign\",\n    \"owner\": \"Nina\",\n    \"deadline\": \"Friday\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Send updated API schema document\",\n    \"owner\": \"David\",\n    \"deadline\": \"Tomorrow noon\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Resolve CSV export issue with missing transaction rows\",\n    \"owner\": \"David and Kevin\",\n    \"deadline\": \"Before Monday afternoon\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Prepare beta dark mode preview\",\n    \"owner\": \"Nina\",\n    \"deadline\": \"Before Tuesday EOD\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Complete regression testing\",\n    \"owner\": \"Kevin\",\n    \"deadline\": \"Tuesday morning\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Review and validate deployment scripts\",\n    \"owner\": \"David\",\n    \"deadline\": \"Before Friday evening\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Inform client that dark mode is in beta preview and final rollout will happen later\",\n    \"owner\": \"Emma\",\n    \"deadline\": \"Next week\u2019s demo\",\n    \"priority\": \"Low\"\n  }\n]"
+}

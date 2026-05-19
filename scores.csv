@@ -1,0 +1,13 @@
+model,prompt_file,task_completion,output_format,factual_accuracy,instruction_following,conciseness,prompt_tokens,completion_tokens,total_tokens,latency_seconds,overall_score,notes
+| Prompt    | Overall |
+| --------- | ------- |
+| Prompt 01 | 4.0     |
+| Prompt 02 | 4.2     |
+| Prompt 03 | 4.4     |
+| Prompt 04 | 4.6     |
+| Prompt 05 | 4.5     |
+| Prompt 06 | 4.5     |
+| Prompt 07 | 4.6     |
+| Prompt 08 | 4.8     |
+| Prompt 09 | 4.7     |
+| Prompt 10 | 4.9     |

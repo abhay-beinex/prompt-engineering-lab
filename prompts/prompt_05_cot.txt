@@ -1,0 +1,10 @@
+Analyze the meeting notes step by step.
+
+1. Identify all actionable tasks.
+2. Determine the responsible owner for each task.
+3. Extract deadlines if mentioned.
+4. Assign a reasonable priority level.
+5. Return the final answer as JSON.
+
+Meeting Notes:
+{{meeting_notes}}

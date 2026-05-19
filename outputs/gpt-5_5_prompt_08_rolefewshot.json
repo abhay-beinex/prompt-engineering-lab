@@ -1,0 +1,9 @@
+{
+    "model": "gpt-5.5",
+    "prompt_file": "prompt_08_rolefewshot.txt",
+    "latency_seconds": 16.16,
+    "prompt_tokens": 506,
+    "completion_tokens": 876,
+    "total_tokens": 1382,
+    "response": "[\n  {\n    \"task\": \"Complete mobile and tablet responsive layout updates for the dashboard redesign\",\n    \"owner\": \"Nina\",\n    \"deadline\": \"Friday evening\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Send the updated API schema document for analytics widgets\",\n    \"owner\": \"David\",\n    \"deadline\": \"Tomorrow noon\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Resolve the CSV export issue causing missing transaction rows\",\n    \"owner\": \"David and Kevin\",\n    \"deadline\": \"Monday afternoon\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Investigate and fix the session expiration issue logging users out unexpectedly\",\n    \"owner\": \"David and Kevin\",\n    \"deadline\": null,\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Prepare a beta dark mode preview for the next demo\",\n    \"owner\": \"Nina\",\n    \"deadline\": \"Tuesday EOD\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Complete updated regression testing for release sign-off\",\n    \"owner\": \"Kevin\",\n    \"deadline\": \"Tuesday morning\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Review and validate deployment scripts, including environment variable checks\",\n    \"owner\": \"David\",\n    \"deadline\": \"Friday evening\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Inform the client that dark mode will be shown as a beta preview and final rollout will happen later\",\n    \"owner\": \"Emma\",\n    \"deadline\": \"Before next week\u2019s demo\",\n    \"priority\": \"Medium\"\n  }\n]"
+}

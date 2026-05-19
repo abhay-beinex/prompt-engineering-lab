@@ -1,0 +1,9 @@
+{
+    "model": "gpt-5.4",
+    "prompt_file": "prompt_03_oneshot.txt",
+    "latency_seconds": 5.09,
+    "prompt_tokens": 497,
+    "completion_tokens": 394,
+    "total_tokens": 891,
+    "response": "```json\n[\n  {\n    \"task\": \"Finish responsive layout updates for the dashboard redesign, including mobile and tablet responsiveness\",\n    \"owner\": \"Nina\",\n    \"deadline\": \"Friday evening\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Send updated API schema document for analytics widgets\",\n    \"owner\": \"David\",\n    \"deadline\": \"Tomorrow noon\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Coordinate and resolve CSV export issue where transaction rows are missing\",\n    \"owner\": \"David and Kevin\",\n    \"deadline\": \"Monday afternoon\",\n    \"priority\": \"High\"\n  },\n  {\n    \"task\": \"Prepare a beta preview version of dark mode for the demo\",\n    \"owner\": \"Nina\",\n    \"deadline\": \"Tuesday EOD\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Complete regression testing before release sign-off\",\n    \"owner\": \"Kevin\",\n    \"deadline\": \"Tuesday morning\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Review and validate deployment scripts\",\n    \"owner\": \"David\",\n    \"deadline\": \"Friday evening\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Inform the client that dark mode is in beta preview and final rollout will happen later\",\n    \"owner\": \"Emma\",\n    \"deadline\": \"Before next week's demo\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Finalize the dashboard redesign before the client review\",\n    \"owner\": \"Sarah\",\n    \"deadline\": \"Next Wednesday\",\n    \"priority\": \"Medium\"\n  },\n  {\n    \"task\": \"Reconvene for a quick progress review meeting\",\n    \"owner\": \"All attendees\",\n    \"deadline\": \"Monday morning\",\n    \"priority\": \"Medium\"\n  }\n]\n```"
+}
